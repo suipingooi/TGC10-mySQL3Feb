@@ -59,5 +59,5 @@ create table Pets (
     foreign key (pet_owner_id) references PetOwners(pet_owner_id)
 ) engine=innodb;
 
-insert into Pets (name, pet_owner_id) values ("mochi", "1")
-insert into Pets (name, pet_owner_id) values ("pixie", "1")
+insert into Pets (name, pet_owner_id) values ("mochi", "1");
+insert into Pets (name, pet_owner_id) values ("pixie", "1");
